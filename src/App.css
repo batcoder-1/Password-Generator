@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    background-color: rgb(192, 201, 238);
+    border-radius: 2rem;
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#password{
+    height: 100px;
+    width:800px;
+    background-color: rgb(137, 138, 196);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#passwordcontainer{
+    background-color: aliceblue;
+    text-align: center;
+    width: 400px;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+#copy{
+    height: 24px;
+    width:75px;
+    background-color: rgb(62, 156, 250);
+    border-radius: 1rem;
+    margin: 10px;
+}
+#copy:hover{
+    transform: scale(1.15);
+    transition: background 0.2s, transform 0.2s;
+}
+#options{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+#length{
+    margin:10px;
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+input[type="checkbox"]{
+  width: 20px; 
+  height: 20px; 
+  cursor: pointer;
+}
